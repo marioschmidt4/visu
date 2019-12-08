@@ -1,0 +1,5064 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-12-07T08:47:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37015160",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kolpingplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3938156,
+              48.996702
+            ],
+            [
+              8.3938001,
+              48.9965047
+            ],
+            [
+              8.3939402,
+              48.9964972
+            ],
+            [
+              8.3939437,
+              48.9965313
+            ],
+            [
+              8.3939609,
+              48.9966955
+            ],
+            [
+              8.3938156,
+              48.996702
+            ]
+          ]
+        ]
+      },
+      "id": "way/37015160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118698798",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "4",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "parking": "surface",
+        "ref": "Bahnhof Durlach",
+        "surface": "asphalt",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4618627,
+              49.0015733
+            ],
+            [
+              8.4618976,
+              49.0015356
+            ],
+            [
+              8.4620209,
+              49.0015862
+            ],
+            [
+              8.4619877,
+              49.0016232
+            ],
+            [
+              8.4618627,
+              49.0015733
+            ]
+          ]
+        ]
+      },
+      "id": "way/118698798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124432268",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kaiserallee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.3767261,
+              49.0111172
+            ],
+            [
+              8.376732,
+              49.0111687
+            ],
+            [
+              8.376385,
+              49.0111858
+            ],
+            [
+              8.3763791,
+              49.0111343
+            ],
+            [
+              8.3767261,
+              49.0111172
+            ]
+          ]
+        ]
+      },
+      "id": "way/124432268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/243719398",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "9",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "car_sharing >area< - node in 528908837",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.387645,
+              49.005003
+            ],
+            [
+              8.387645,
+              49.004943
+            ],
+            [
+              8.3879578,
+              49.0049432
+            ],
+            [
+              8.3879579,
+              49.004991
+            ],
+            [
+              8.3879525,
+              49.0049911
+            ],
+            [
+              8.3879524,
+              49.0049975
+            ],
+            [
+              8.3877021,
+              49.0049989
+            ],
+            [
+              8.387702,
+              49.0050027
+            ],
+            [
+              8.387645,
+              49.005003
+            ]
+          ]
+        ]
+      },
+      "id": "way/243719398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438182273",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "level": "3.5",
+        "level:ref": "4B",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Marktplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4058341,
+              49.0084453
+            ],
+            [
+              8.4058009,
+              49.0084429
+            ],
+            [
+              8.405769,
+              49.0084405
+            ],
+            [
+              8.4057502,
+              49.0084392
+            ],
+            [
+              8.4057347,
+              49.008438
+            ],
+            [
+              8.4057049,
+              49.0084359
+            ],
+            [
+              8.4057015,
+              49.0084356
+            ],
+            [
+              8.4056684,
+              49.0084332
+            ],
+            [
+              8.4056353,
+              49.0084308
+            ],
+            [
+              8.4056143,
+              49.0084292
+            ],
+            [
+              8.4056022,
+              49.0084283
+            ],
+            [
+              8.405569,
+              49.0084259
+            ],
+            [
+              8.4055772,
+              49.0083778
+            ],
+            [
+              8.4055854,
+              49.0083298
+            ],
+            [
+              8.4055935,
+              49.0082817
+            ],
+            [
+              8.4056257,
+              49.008284
+            ],
+            [
+              8.4056579,
+              49.0082864
+            ],
+            [
+              8.40569,
+              49.0082887
+            ],
+            [
+              8.4057222,
+              49.0082911
+            ],
+            [
+              8.405714,
+              49.0083392
+            ],
+            [
+              8.4057097,
+              49.0083875
+            ],
+            [
+              8.4057428,
+              49.00839
+            ],
+            [
+              8.405776,
+              49.0083924
+            ],
+            [
+              8.4058091,
+              49.0083948
+            ],
+            [
+              8.4058422,
+              49.0083972
+            ],
+            [
+              8.4058341,
+              49.0084453
+            ]
+          ]
+        ]
+      },
+      "id": "way/438182273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479948863",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "4",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Veilchenstraße",
+        "start_date": "2017-02",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4275277,
+              49.0095621
+            ],
+            [
+              8.4274401,
+              49.0095789
+            ],
+            [
+              8.427412,
+              49.009516
+            ],
+            [
+              8.4276864,
+              49.0094633
+            ],
+            [
+              8.427694,
+              49.0094814
+            ],
+            [
+              8.4275294,
+              49.009513
+            ],
+            [
+              8.4275494,
+              49.0095579
+            ],
+            [
+              8.4275277,
+              49.0095621
+            ]
+          ]
+        ]
+      },
+      "id": "way/479948863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482101804",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Ragoldspark",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4303439,
+              49.0100607
+            ],
+            [
+              8.4304465,
+              49.0100537
+            ],
+            [
+              8.4304578,
+              49.010112
+            ],
+            [
+              8.4303527,
+              49.0101221
+            ],
+            [
+              8.4303439,
+              49.0100607
+            ]
+          ]
+        ]
+      },
+      "id": "way/482101804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/576889012",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Sybelstraße-Luisenstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4150981,
+              49.0008924
+            ],
+            [
+              8.4151313,
+              49.0008932
+            ],
+            [
+              8.4151645,
+              49.000894
+            ],
+            [
+              8.415162,
+              49.000937
+            ],
+            [
+              8.4151288,
+              49.0009362
+            ],
+            [
+              8.4150956,
+              49.0009354
+            ],
+            [
+              8.4150981,
+              49.0008924
+            ]
+          ]
+        ]
+      },
+      "id": "way/576889012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612025671",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4200291,
+              49.0070619
+            ],
+            [
+              8.4200539,
+              49.0070455
+            ],
+            [
+              8.4200573,
+              49.0070477
+            ],
+            [
+              8.4200817,
+              49.0070316
+            ],
+            [
+              8.4200854,
+              49.007034
+            ],
+            [
+              8.4201101,
+              49.0070178
+            ],
+            [
+              8.4201535,
+              49.0070461
+            ],
+            [
+              8.4201289,
+              49.0070624
+            ],
+            [
+              8.420126,
+              49.0070605
+            ],
+            [
+              8.4201016,
+              49.0070766
+            ],
+            [
+              8.4200978,
+              49.0070741
+            ],
+            [
+              8.4200729,
+              49.0070905
+            ],
+            [
+              8.4200291,
+              49.0070619
+            ]
+          ]
+        ]
+      },
+      "id": "way/612025671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627441439",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Albert-Nestler-Straße",
+        "start_date": "2016",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4409976,
+              49.0201901
+            ],
+            [
+              8.4409808,
+              49.0201693
+            ],
+            [
+              8.4410365,
+              49.02015
+            ],
+            [
+              8.4410533,
+              49.0201708
+            ],
+            [
+              8.44107,
+              49.0201916
+            ],
+            [
+              8.4410143,
+              49.0202109
+            ],
+            [
+              8.4409976,
+              49.0201901
+            ]
+          ]
+        ]
+      },
+      "id": "way/627441439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700575907",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Forststraße",
+        "start_date": "2017",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4419766,
+              49.01427
+            ],
+            [
+              8.4420063,
+              49.0142578
+            ],
+            [
+              8.442036,
+              49.0142457
+            ],
+            [
+              8.4420774,
+              49.0142891
+            ],
+            [
+              8.4420477,
+              49.0143013
+            ],
+            [
+              8.442018,
+              49.0143135
+            ],
+            [
+              8.4419766,
+              49.01427
+            ]
+          ]
+        ]
+      },
+      "id": "way/700575907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26941201",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "No fixed place",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Brühlstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4659853,
+          48.9937781
+        ]
+      },
+      "id": "node/26941201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26941264",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Weiherhof-Center",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4725516,
+          48.9968719
+        ]
+      },
+      "id": "node/26941264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/108238356",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "description": "Schlüsseltresor, keine festen Parkplätze",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Vincentius",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3879435,
+          48.9987463
+        ]
+      },
+      "id": "node/108238356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/108238449",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Wartburgstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3859687,
+          48.9940433
+        ]
+      },
+      "id": "node/108238449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/108252137",
+        "addr:postcode": "76135",
+        "addr:street": "Hohenzollernstraße",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Hohenzollernstraße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no",
+        "wheelchair:description": "Tresor hängt zu hoch (ca. 1,80m über dem Boden)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3941365,
+          48.9935043
+        ]
+      },
+      "id": "node/108252137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/110435602",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kronenplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4097405,
+          49.0088959
+        ]
+      },
+      "id": "node/110435602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/110440988",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "neue Position seit Anfang 2017",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Eisenbahnsiedlung",
+        "start_date": "2017-02",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4237425,
+          49.0048285
+        ]
+      },
+      "id": "node/110440988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/110461253",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Tivoli",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4096426,
+          48.9976914
+        ]
+      },
+      "id": "node/110461253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129966878",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Ellmendinger Straße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4585112,
+          48.9944555
+        ]
+      },
+      "id": "node/129966878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129966881",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "6",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bahnhof Durlach",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4614755,
+          49.001387
+        ]
+      },
+      "id": "node/129966881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129966883",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rappenstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4726933,
+          48.999838
+        ]
+      },
+      "id": "node/129966883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250044274",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bärenweg",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3778115,
+          49.046514
+        ]
+      },
+      "id": "node/250044274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250045037",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Am Wald",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3877369,
+          49.0319297
+        ]
+      },
+      "id": "node/250045037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/252412574",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Helmholtzstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3828641,
+          49.0114563
+        ]
+      },
+      "id": "node/252412574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264975234",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Weinbrennerplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3802485,
+          49.0063663
+        ]
+      },
+      "id": "node/264975234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/270264911",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Marktplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4055964,
+          49.0082395
+        ]
+      },
+      "id": "node/270264911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311191425",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Location of the safe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Barbarossaplatz",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3900549,
+          48.9952895
+        ]
+      },
+      "id": "node/311191425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/312385181",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Luisenstraße - Queens Hotel",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4048283,
+          49.0003755
+        ]
+      },
+      "id": "node/312385181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/361038833",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "entlang der Parkstraße, bevorzugt in der Nähe der Kreuzung mit der Schönfeldstraße",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Parkstraße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4229029,
+          49.0124157
+        ]
+      },
+      "id": "node/361038833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/361039226",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Technologiefabrik",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4251607,
+          49.0125741
+        ]
+      },
+      "id": "node/361039226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/361040681",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Schlüsseltresor",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rintheimer Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4248039,
+          49.0110165
+        ]
+      },
+      "id": "node/361040681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/361044782",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Hansjakobstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4202467,
+          49.0113227
+        ]
+      },
+      "id": "node/361044782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367023930",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Erzbergerstraße",
+        "toilets:wheelchair": "no",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3852711,
+          49.020709
+        ]
+      },
+      "id": "node/367023930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/406368108",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Marienstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4084611,
+          49.0000439
+        ]
+      },
+      "id": "node/406368108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/409720385",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Standort Tresor",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Waldstadtzentrum",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4439983,
+          49.0340033
+        ]
+      },
+      "id": "node/409720385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/520502473",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Adlerstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4089493,
+          49.0054864
+        ]
+      },
+      "id": "node/520502473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/520504850",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Amalienstraße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3931352,
+          49.0083317
+        ]
+      },
+      "id": "node/520504850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/520522563",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Berufsbildungszentrum",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3823705,
+          49.0087843
+        ]
+      },
+      "id": "node/520522563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/520523539",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bismarckstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3920893,
+          49.0129951
+        ]
+      },
+      "id": "node/520523539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521076452",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Blücherstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3751171,
+          49.0116588
+        ]
+      },
+      "id": "node/521076452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521076661",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "CAP-Markt",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3789722,
+          49.0105179
+        ]
+      },
+      "id": "node/521076661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521076707",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "20",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Dorotheastraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4100926,
+          48.9986144
+        ]
+      },
+      "id": "node/521076707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521076767",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "level": "-1",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Standort Tresor",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Friedrichsplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4011054,
+          49.0083476
+        ]
+      },
+      "id": "node/521076767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521077138",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Georg-Friedrich-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4238139,
+          49.0087073
+        ]
+      },
+      "id": "node/521077138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522397181",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Hofgarten",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3803065,
+          49.0102557
+        ]
+      },
+      "id": "node/522397181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522399694",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Klosterweg",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4214998,
+          49.0198238
+        ]
+      },
+      "id": "node/522399694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522400677",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Knielinger Allee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3811326,
+          49.0180328
+        ]
+      },
+      "id": "node/522400677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522402605",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kühler Krug",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.367272,
+          49.0056924
+        ]
+      },
+      "id": "node/522402605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522404149",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kunstakademie",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3867967,
+          49.0144468
+        ]
+      },
+      "id": "node/522404149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523202045",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "description": "Keine gekennzeichneten Parkplätze. Die Fahrzeuge sind nach Möglichkeit auf dem Parkplatz in der Wendeschleife geparkt.",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Mannheimer Straße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4439921,
+          49.0164878
+        ]
+      },
+      "id": "node/523202045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523205580",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Nuitsstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3622599,
+          49.0104201
+        ]
+      },
+      "id": "node/523205580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523206722",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "4",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Nürnberger Straße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3988464,
+          48.9844549
+        ]
+      },
+      "id": "node/523206722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523210010",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Postweg",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3684315,
+          49.0245783
+        ]
+      },
+      "id": "node/523210010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523211720",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Putlitzstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3873414,
+          49.0030077
+        ]
+      },
+      "id": "node/523211720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523214687",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Renckstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3962205,
+          49.0032546
+        ]
+      },
+      "id": "node/523214687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523216277",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Sedanstraße",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3604346,
+          49.0119308
+        ]
+      },
+      "id": "node/523216277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523217570",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Seldeneckstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3745686,
+          49.0136852
+        ]
+      },
+      "id": "node/523217570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523218714",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Sudetenstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3446049,
+          49.0304848
+        ]
+      },
+      "id": "node/523218714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523220305",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Südliche Hildapromenade",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3849898,
+          49.0121294
+        ]
+      },
+      "id": "node/523220305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523221829",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "4",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Technologiepark TPK",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4397825,
+          49.019307
+        ]
+      },
+      "id": "node/523221829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523224121",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Tennesseeallee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3907224,
+          49.0265692
+        ]
+      },
+      "id": "node/523224121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523226911",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Universität",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4157447,
+          49.009777
+        ]
+      },
+      "id": "node/523226911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523229507",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "No fixed place",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Weechstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4329336,
+          49.0121209
+        ]
+      },
+      "id": "node/523229507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523232405",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Werderstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4124689,
+          49.0020426
+        ]
+      },
+      "id": "node/523232405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523235535",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "fixme": "FIXME: guesswork",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Willy-Andreas-Allee",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3969994,
+          49.0161493
+        ]
+      },
+      "id": "node/523235535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523238312",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "12",
+        "capacity:charging": "1",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Zähringerstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.407844,
+          49.0088215
+        ]
+      },
+      "id": "node/523238312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528908837",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Gartenstraße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3874366,
+          49.0048536
+        ]
+      },
+      "id": "node/528908837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768853617",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Wilhelm-Leuschner-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3656614,
+          48.9833003
+        ]
+      },
+      "id": "node/768853617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790571973",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Psychiatrie-Kaiserallee",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3799888,
+          49.0109969
+        ]
+      },
+      "id": "node/790571973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790573190",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Wilhelm-Baur-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3681769,
+          49.0050903
+        ]
+      },
+      "id": "node/790573190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/829887066",
+        "amenity": "car_sharing",
+        "name": "Bachstraße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3656743,
+          49.0123693
+        ]
+      },
+      "id": "node/829887066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904348314",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "check_date": "2018-01",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bahnhof Hagsfeld",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4536905,
+          49.0275212
+        ]
+      },
+      "id": "node/904348314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/942400655",
+        "amenity": "car_sharing",
+        "capacity": "2",
+        "name": "Belchenstraße",
+        "operator": "Stadtmobil",
+        "source": "LA-KA",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3926802,
+          48.9826829
+        ]
+      },
+      "id": "node/942400655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1045479091",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "8",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Verkehrsbetriebe",
+        "start_date": "2016-09",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4353678,
+          49.008761
+        ]
+      },
+      "id": "node/1045479091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1051761464",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Hans-Sachs-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3859656,
+          49.0093316
+        ]
+      },
+      "id": "node/1051761464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1097786486",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kronprinzenstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3913803,
+          48.9941512
+        ]
+      },
+      "id": "node/1097786486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1202240521",
+        "amenity": "car_sharing",
+        "name": "Rolandplatz",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.376469,
+          48.9865171
+        ]
+      },
+      "id": "node/1202240521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1226095874",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kaiserplatz (Mühlburger Tor)",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kaiserplatz (Mühlburger Tor)",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kaiserplatz-muehlburger-tor/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3884459,
+          49.0092991
+        ]
+      },
+      "id": "node/1226095874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1316028947",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "ZKM-Garage",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3854736,
+          49.0009068
+        ]
+      },
+      "id": "node/1316028947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1388689375",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Abraham-Lincoln-Allee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4006701,
+          49.0538786
+        ]
+      },
+      "id": "node/1388689375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1390562219",
+        "amenity": "car_sharing",
+        "capacity": "3",
+        "name": "Feldbergplatz",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3907992,
+          48.9848612
+        ]
+      },
+      "id": "node/1390562219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1419019049",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "6",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bahnhof Grötzingen",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4935822,
+          49.0059261
+        ]
+      },
+      "id": "node/1419019049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1460915007",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Mika",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3927306,
+          49.031114
+        ]
+      },
+      "id": "node/1460915007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1480144415",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Seboldstraße / Volksbank",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4706839,
+          49.001153
+        ]
+      },
+      "id": "node/1480144415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1481168682",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Gottesauer Platz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.424255,
+          49.0072178
+        ]
+      },
+      "id": "node/1481168682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767737899",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "KIT-Straße-am-Forum",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4163672,
+          49.0134033
+        ]
+      },
+      "id": "node/1767737899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1932959663",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Landratsamt Karlsruhe",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4012425,
+          49.0045159
+        ]
+      },
+      "id": "node/1932959663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1934346180",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Adolf-Ehrmann-Bad",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3863233,
+          49.0513835
+        ]
+      },
+      "id": "node/1934346180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1934346181",
+        "amenity": "car_sharing",
+        "name": "Albert-Einstein-Straße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4622547,
+          48.9803021
+        ]
+      },
+      "id": "node/1934346181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1936082215",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Cäciliastraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3925756,
+          48.9921916
+        ]
+      },
+      "id": "node/1936082215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1938459082",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Martinstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3803525,
+          48.989957
+        ]
+      },
+      "id": "node/1938459082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939461043",
+        "amenity": "car_sharing",
+        "comment": "No fixed place",
+        "name": "Turnerstraße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3361016,
+          49.0030003
+        ]
+      },
+      "id": "node/1939461043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939618284",
+        "amenity": "car_sharing",
+        "comment": "No fixed place",
+        "name": "Durmersheimer Straße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3525528,
+          49.0014194
+        ]
+      },
+      "id": "node/1939618284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939618287",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Mörscher Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3567374,
+          49.0060485
+        ]
+      },
+      "id": "node/1939618287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1940159996",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Grillparzerstraße-Kaiserallee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3722944,
+          49.010778
+        ]
+      },
+      "id": "node/1940159996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1940159997",
+        "amenity": "car_sharing",
+        "name": "Händelstraße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3687799,
+          49.0121695
+        ]
+      },
+      "id": "node/1940159997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1941973484",
+        "amenity": "car_sharing",
+        "comment": "No fixed place",
+        "name": "Sonnenstraße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3576239,
+          49.0150509
+        ]
+      },
+      "id": "node/1941973484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1943364698",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rhode-Island-Allee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3875174,
+          49.0259714
+        ]
+      },
+      "id": "node/1943364698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1943364741",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Tennesseeallee",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3904725,
+          49.0265085
+        ]
+      },
+      "id": "node/1943364741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1943364746",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Westhochschule Hertzstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3668316,
+          49.0216231
+        ]
+      },
+      "id": "node/1943364746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1943364749",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Wormser Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3617304,
+          49.0277866
+        ]
+      },
+      "id": "node/1943364749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1943364797",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kurt-Schumacher-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3754561,
+          49.0304993
+        ]
+      },
+      "id": "node/1943364797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1955678780",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "1",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Jenaer Straße",
+        "start_date": "2016-08",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.455772,
+          49.036013
+        ]
+      },
+      "id": "node/1955678780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957237916",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "1",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Parkplatz Nr. 4 reserviert für Stadtmobil",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Heilbronner Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4414417,
+          49.0162066
+        ]
+      },
+      "id": "node/1957237916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957238062",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Dürrbachstraße",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4784012,
+          48.9978269
+        ]
+      },
+      "id": "node/1957238062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1957238203",
+        "amenity": "car_sharing",
+        "name": "Max-Beckmann-Straße",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4749882,
+          48.986143
+        ]
+      },
+      "id": "node/1957238203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1959177002",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Holderweg",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4093306,
+          48.9779196
+        ]
+      },
+      "id": "node/1959177002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1959177303",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "comment": "No fixed place",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Battstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4057292,
+          48.9661331
+        ]
+      },
+      "id": "node/1959177303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1959178067",
+        "amenity": "car_sharing",
+        "comment": "No fixed place",
+        "name": "Friedhof Aue",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4546073,
+          48.9875835
+        ]
+      },
+      "id": "node/1959178067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1961083481",
+        "amenity": "car_sharing",
+        "brand": "Flinkster",
+        "network": "Flinkster",
+        "operator": "Deutsche Bahn Connect GmbH",
+        "ref": "BFSüd - Hbf Südausgang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4017027,
+          48.9911662
+        ]
+      },
+      "id": "node/1961083481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1961083485",
+        "amenity": "car_sharing",
+        "brand": "Flinkster",
+        "capacity": "2",
+        "network": "Flinkster",
+        "operator": "Deutsche Bahn Connect GmbH",
+        "ref": "Hbf - Hauptbahnhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3989492,
+          48.993742
+        ]
+      },
+      "id": "node/1961083485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1961083488",
+        "amenity": "car_sharing",
+        "name": "W&W - Wüstenrot & Württembergische",
+        "operator": "Flinkster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3981181,
+          48.9984297
+        ]
+      },
+      "id": "node/1961083488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352273711",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Alter Schlachthof",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4314312,
+          49.0058448
+        ]
+      },
+      "id": "node/2352273711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2509175461",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Beiertheimer Allee",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3955533,
+          48.9948841
+        ]
+      },
+      "id": "node/2509175461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2631423591",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Akademiestraße",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/akademiestrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3941671,
+          49.0106937
+        ]
+      },
+      "id": "node/2631423591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2704428360",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Henriette-Obermüller-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4143457,
+          49.0019349
+        ]
+      },
+      "id": "node/2704428360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2854646864",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Gottesauer-Straße-Tiefgarage",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4215497,
+          49.006403
+        ]
+      },
+      "id": "node/2854646864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2930724252",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4115502,
+          49.0114235
+        ]
+      },
+      "id": "node/2930724252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3129582482",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "fixme": "add ref",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4152634,
+          48.9999796
+        ]
+      },
+      "id": "node/3129582482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3419575821",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "level": "0",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Ludwig-Erhard-Allee",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.416503,
+          49.0045464
+        ]
+      },
+      "id": "node/3419575821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3428246901",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Mittelstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4692353,
+          48.9979952
+        ]
+      },
+      "id": "node/3428246901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3621425429",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "An-der-RaumFabrik",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.462302,
+          48.9973056
+        ]
+      },
+      "id": "node/3621425429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3674779504",
+        "addr:city": "Karlsruhe",
+        "addr:housenumber": "4",
+        "addr:postcode": "76185",
+        "addr:street": "Pfannkuchstraße",
+        "amenity": "car_sharing",
+        "name": "Kleinbusse - Sportjugend Vereinshilfe",
+        "operator": "Sportjugend Vereinshilfe e.V. Karlsruhe",
+        "website": "http://www.sportjugend-karlsruhe.de/busverleih"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3458403,
+          49.0085376
+        ]
+      },
+      "id": "node/3674779504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3711441639",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Graf-Rhena-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3857816,
+          48.9972829
+        ]
+      },
+      "id": "node/3711441639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3741493452",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "5",
+        "level": "-1",
+        "location": "underground",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Stadtmobil Kriegsstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3837014,
+          49.0058853
+        ]
+      },
+      "id": "node/3741493452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3804621729",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Josef-Schofer-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3754579,
+          49.0284572
+        ]
+      },
+      "id": "node/3804621729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935946026",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rheinbergstraße Karlsruhe",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3356516,
+          49.0353497
+        ]
+      },
+      "id": "node/3935946026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4098007779",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "layer": "-1",
+        "level": "0",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Parkplatz für Stadtmobil Elektrofahrzeug",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Parkhaus-Hauptbahnhof-KA",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4028211,
+          48.9929993
+        ]
+      },
+      "id": "node/4098007779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4098008897",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "layer": "-1",
+        "level": "0",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Parkhaus-Hauptbahnhof-KA",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4039528,
+          48.9931385
+        ]
+      },
+      "id": "node/4098008897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4098008903",
+        "amenity": "car_sharing",
+        "brand": "Flinkster",
+        "layer": "-1",
+        "level": "0",
+        "network": "Flinkster",
+        "operator": "Deutsche Bahn Connect GmbH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4041862,
+          48.9931931
+        ]
+      },
+      "id": "node/4098008903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4098101573",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "safe",
+        "layer": "-1",
+        "level": "0",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Schlüsseltresor",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Parkhaus-Hauptbahnhof-KA",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4028328,
+          48.9930815
+        ]
+      },
+      "id": "node/4098101573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4187492051",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "6",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Parkplätze,",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Am Fächerbad",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4467526,
+          49.0255738
+        ]
+      },
+      "id": "node/4187492051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4328210280",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "kein fester Stellplatz, Fahrzeug soll möglich nahe an der Stuttgarter Streße 33 geparkt werden. Offizieller Name der Station wirklich mit Bindestrich.",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Stuttgarter-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4204505,
+          49.0002787
+        ]
+      },
+      "id": "node/4328210280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4338239089",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "check_date": "2018-01",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rintheimer-Hauptstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.440081,
+          49.0116548
+        ]
+      },
+      "id": "node/4338239089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469688870",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "level": "-1",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "Parkplätze, nur zugänglich über Schlüssel aus Schlüsseltresor",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Rintheimer Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4247199,
+          49.0113784
+        ]
+      },
+      "id": "node/4469688870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4515086619",
+        "amenity": "car_sharing",
+        "comment": "No fixed place",
+        "name": "Lindenallee",
+        "operator": "Stadtmobil",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3345031,
+          48.9994724
+        ]
+      },
+      "id": "node/4515086619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4704230536",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Georg-Friedrich-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4246848,
+          49.008724
+        ]
+      },
+      "id": "node/4704230536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4743895301",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "1",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Leipziger Allee",
+        "start_date": "2016-07",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4543429,
+          49.0329153
+        ]
+      },
+      "id": "node/4743895301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4751386115",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "covered": "yes",
+        "description": "im Parkhaus Fasanengarten",
+        "layer": "-1",
+        "level": "-1",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Fasanengarten",
+        "start_date": "2017-03",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no",
+        "wheelchair:description": "Zugang zur Tiefgarage nur über Treppe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4203471,
+          49.014042
+        ]
+      },
+      "id": "node/4751386115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771469101",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Sozialhaus-Landratsamt",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4251035,
+          49.0053437
+        ]
+      },
+      "id": "node/4771469101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792326915",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "covered": "yes",
+        "layer": "-1",
+        "level": "-1",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "im Parkhaus Fasanengarten",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Fasanengarten",
+        "start_date": "2017-03",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.420059,
+          49.014001
+        ]
+      },
+      "id": "node/4792326915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793460915",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "8",
+        "capacity:charging": "1",
+        "car_sharing": "key_safe",
+        "level": "-2",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Fritz-Erler-Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4109239,
+          49.0083216
+        ]
+      },
+      "id": "node/4793460915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4825738794",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Bahnhofstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3991592,
+          48.9981969
+        ]
+      },
+      "id": "node/4825738794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4850293847",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Parkplätze,",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Breslauer Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4413785,
+          49.0284247
+        ]
+      },
+      "id": "node/4850293847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4876495926",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Parkplätze,",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Insterburger Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4358692,
+          49.0369026
+        ]
+      },
+      "id": "node/4876495926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4876495927",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Parkplätze,",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Schweidnitzer Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4478922,
+          49.0291031
+        ]
+      },
+      "id": "node/4876495927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062623802",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Parkplätze",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Elbinger Straße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4444255,
+          49.042297
+        ]
+      },
+      "id": "node/5062623802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5198082810",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Benzstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3650832,
+          49.0011145
+        ]
+      },
+      "id": "node/5198082810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352754522",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Studentenwohnheim-Insterburg",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4333567,
+          49.0365289
+        ]
+      },
+      "id": "node/5352754522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5590612877",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3926561,
+          49.0146981
+        ]
+      },
+      "id": "node/5590612877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5661553202",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "9",
+        "car_sharing": "key_safe",
+        "check_date": "2018-06-03",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Indianaring",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3912735,
+          49.033092
+        ]
+      },
+      "id": "node/5661553202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5731038695",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "1",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "note": "keine festen Stellpätze, Fahrzeuge parken in der Nähe der Kreuzung",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Eppingerstraße",
+        "start_date": "2018-06",
+        "website": "https://karlsruhe.stadtmobil.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4435309,
+          49.0189278
+        ]
+      },
+      "id": "node/5731038695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5857271085",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "check_date": "2018-08",
+        "description": "in der Tiefgarage des Studentenwohnheims",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Studentenwohnheim-WAA",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3930022,
+          49.0173218
+        ]
+      },
+      "id": "node/5857271085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5940950642",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3935815,
+          49.053847
+        ]
+      },
+      "id": "node/5940950642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5964515851",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Liebensteinstraße",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4802008,
+          49.0019011
+        ]
+      },
+      "id": "node/5964515851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6133400933",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "1",
+        "car_sharing": "parking",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "BGV Durlacher Allee",
+        "start_date": "2018-12",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4264959,
+          49.0069123
+        ]
+      },
+      "id": "node/6133400933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253646053",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "parking",
+        "level": "-1",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Kronenplatz",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4097452,
+          49.008998
+        ]
+      },
+      "id": "node/6253646053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6283474268",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "2",
+        "car_sharing": "parking",
+        "check_date": "2019-02",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Heide-Bocksdornweg",
+        "start_date": "2019-02",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3888876,
+          49.0374741
+        ]
+      },
+      "id": "node/6283474268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6426730836",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "car_sharing": "key_safe",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Erdinger Straße Süd",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4517425,
+          48.9929861
+        ]
+      },
+      "id": "node/6426730836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6426730837",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Erdinger Straße Nord",
+        "website": "https://karlsruhe.stadtmobil.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4519538,
+          48.993577
+        ]
+      },
+      "id": "node/6426730837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771901",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "76139",
+        "addr:street": "Bertha-von-Suttner-Straße",
+        "addr:suburb": "Waldstadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Bertha-von-Suttner-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/bertha-von-suttner-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.448362,
+          49.045176
+        ]
+      },
+      "id": "node/6591771901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771902",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "30",
+        "addr:postcode": "76149",
+        "addr:street": "Bärenweg",
+        "addr:suburb": "Neureut",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Grünewaldstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/gruenewaldstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.380766,
+          49.04479
+        ]
+      },
+      "id": "node/6591771902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771903",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76139",
+        "addr:street": "Elbinger Straße",
+        "addr:suburb": "Waldstadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Elbinger Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/elbinger-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4454653,
+          49.0420411
+        ]
+      },
+      "id": "node/6591771903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771904",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76187",
+        "addr:street": "Egon-Eiermann-Allee",
+        "addr:suburb": "Knielingen",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Egon-Eiermann-Allee",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/egon-eiermann-allee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.347718,
+          49.038394
+        ]
+      },
+      "id": "node/6591771904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771905",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76187",
+        "addr:street": "Kaiserslauterner Straße",
+        "addr:suburb": "Nordweststadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kaiserslauterner Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kaiserslauterner-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3732558,
+          49.0356003
+        ]
+      },
+      "id": "node/6591771905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771906",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76187",
+        "addr:street": "Pionierstraße",
+        "addr:suburb": "Knielingen",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Pionierstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/pionierstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3457198,
+          49.0344536
+        ]
+      },
+      "id": "node/6591771906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771908",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "140",
+        "addr:postcode": "76187",
+        "addr:street": "Hertzstraße",
+        "addr:suburb": "Nordweststadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Hertzstraße/Friedhof",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/hertzstrassefriedhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.364884,
+          49.03241
+        ]
+      },
+      "id": "node/6591771908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771909",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "76187",
+        "addr:street": "Bienwaldstraße",
+        "addr:suburb": "Nordweststadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Petrus-Jakobus-Gemeinde",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/petrus-jakobus-gemeinde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.369012,
+          49.02893
+        ]
+      },
+      "id": "node/6591771909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771910",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "83",
+        "addr:postcode": "76185",
+        "addr:street": "Zietenstraße",
+        "addr:suburb": "Mühlburg",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Zietenstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/zietenstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.362352,
+          49.020829
+        ]
+      },
+      "id": "node/6591771910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771911",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Nancystraße",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/nancystrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3712355,
+          49.0210516
+        ]
+      },
+      "id": "node/6591771911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771912",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "76149",
+        "addr:street": "Tennesseeallee",
+        "addr:suburb": "Nordstadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Michiganstraße-Tennesseeallee",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/michiganstrasse-tennesseeallee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3884392,
+          49.0201475
+        ]
+      },
+      "id": "node/6591771912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771913",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "26",
+        "addr:postcode": "76185",
+        "addr:street": "Kanonierstraße",
+        "addr:suburb": "Mühlburg",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kanonierstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kanonierstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.364282,
+          49.019031
+        ]
+      },
+      "id": "node/6591771913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771914",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:postcode": "76189",
+        "addr:street": "Am Mühlburger Bahnhof",
+        "addr:suburb": "Mühlburg",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Am Mühlburger Bahnhof",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/am-muehlburger-bahnhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.352076,
+          49.015007
+        ]
+      },
+      "id": "node/6591771914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771915",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "53",
+        "addr:postcode": "76229",
+        "addr:street": "Weingartener Straße",
+        "addr:suburb": "Grötzingen",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Weingartener Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/weingartener-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4974313,
+          49.0145538
+        ]
+      },
+      "id": "node/6591771915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771916",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Parkhaus-Passagehof",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/parkhaus-passagehof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3980271,
+          49.0111447
+        ]
+      },
+      "id": "node/6591771916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771917",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "76229",
+        "addr:street": "Karl-Leopold-Straße",
+        "addr:suburb": "Grötzingen",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Karl-Leopold-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/karl-leopold-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.491139,
+          49.010917
+        ]
+      },
+      "id": "node/6591771917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771918",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Zirkel",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/zirkel-1/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.408263,
+          49.010719
+        ]
+      },
+      "id": "node/6591771918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771920",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "31",
+        "addr:postcode": "76133",
+        "addr:street": "Zirkel",
+        "addr:suburb": "Innenstadt West",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Herrenstraße-Parkhaus-am-Zirkel",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/herrenstrasse-parkhaus-am-zirkel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4008852,
+          49.0106486
+        ]
+      },
+      "id": "node/6591771920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771921",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "76131",
+        "addr:street": "Essenweinstraße",
+        "addr:suburb": "Oststadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "KiGa-Essenweinstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kiga-essenweinstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.427183,
+          49.01036
+        ]
+      },
+      "id": "node/6591771921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771922",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "91",
+        "addr:postcode": "76133",
+        "addr:street": "Amalienstraße",
+        "addr:suburb": "Innenstadt West",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kaiserplatz (Mühlburger Tor)",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kaiserplatz-muehlburger-tor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3880186,
+          49.0098578
+        ]
+      },
+      "id": "node/6591771922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771924",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "64",
+        "addr:postcode": "76135",
+        "addr:street": "Lessingstraße",
+        "addr:suburb": "Weststadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Lessingstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/lessingstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3847189,
+          49.0066509
+        ]
+      },
+      "id": "node/6591771924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771925",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "network": "Stadtmobil Karlsruhe",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "ref": "Büchelbergstraße",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/buechelbergstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.495739,
+          49.006497
+        ]
+      },
+      "id": "node/6591771925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771926",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "76189",
+        "addr:street": "Waidweg",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Waidweg / Caritas",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/waidweg-caritas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3233881,
+          49.0050674
+        ]
+      },
+      "id": "node/6591771926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771927",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "76189",
+        "addr:street": "Kastenwörtstraße",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kastenwörtstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kastenwoertstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3319412,
+          49.005018
+        ]
+      },
+      "id": "node/6591771927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771928",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "76137",
+        "addr:street": "Baumeisterstraße",
+        "addr:suburb": "Südstadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Parkhaus-Staatstheater",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/parkhaus-staatstheater"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.405659,
+          49.0045869
+        ]
+      },
+      "id": "node/6591771928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771930",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "60",
+        "addr:postcode": "76185",
+        "addr:street": "Durmersheimer Straße",
+        "addr:suburb": "Grünwinkel",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Am Albgrün",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/am-albgruen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.355529,
+          49.0039807
+        ]
+      },
+      "id": "node/6591771930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771931",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "76229",
+        "addr:street": "Karl-Martin-Graff-Straße",
+        "addr:suburb": "Grötzingen",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Karl-Martin-Graff-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/karl-martin-graff-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.504037,
+          49.00361
+        ]
+      },
+      "id": "node/6591771931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771932",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "76189",
+        "addr:street": "Hermann-Hesse-Straße",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Hermann-Hesse-Str",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/hermann-hesse-str"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.337438,
+          49.002076
+        ]
+      },
+      "id": "node/6591771932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771933",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "76137",
+        "addr:street": "Rüppurrer Straße",
+        "addr:suburb": "Südstadt",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Rüppurrer Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/rueppurrer-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4103882,
+          49.0003729
+        ]
+      },
+      "id": "node/6591771933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771934",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "76189",
+        "addr:street": "Lindenallee",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Lindenallee",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/lindenallee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3365269,
+          48.9987803
+        ]
+      },
+      "id": "node/6591771934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771935",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "76189",
+        "addr:street": "Thomas-Mann-Straße",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Thomas-Mann-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/thomas-mann-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3419725,
+          48.9982576
+        ]
+      },
+      "id": "node/6591771935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771936",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "76189",
+        "addr:street": "Weidenweg",
+        "addr:suburb": "Daxlanden",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Weidenweg",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/weidenweg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.334001,
+          48.996452
+        ]
+      },
+      "id": "node/6591771936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771937",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "30",
+        "addr:postcode": "76189",
+        "addr:street": "Heidenstückerweg",
+        "addr:suburb": "Heidenstückersiedlung",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Bernsteinstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/bernsteinstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3522701,
+          48.9949598
+        ]
+      },
+      "id": "node/6591771937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771938",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "76227",
+        "addr:street": "Auf den Lohn",
+        "addr:suburb": "Durlach",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Auf den Lohn",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/auf-den-lohn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.453674,
+          48.9947
+        ]
+      },
+      "id": "node/6591771938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771939",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "capacity": "3",
+        "car_sharing": "parking",
+        "description": "nur Transporter",
+        "name": "Hinterm Hauptbahnhof",
+        "network": "Stadtmobil Karlsruhe",
+        "opening_hours": "24/7",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/hinterm-hauptbahnhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4055237,
+          48.992959
+        ]
+      },
+      "id": "node/6591771939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771940",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "76227",
+        "addr:street": "Westmarkstraße",
+        "addr:suburb": "Durlach",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Westmarkstraße / Volksbank",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/westmarkstrasse-volksbank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4615,
+          48.992917
+        ]
+      },
+      "id": "node/6591771940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771941",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76227",
+        "addr:street": "Schlesierstraße",
+        "addr:suburb": "Durlach",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Schlesier Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/schlesier-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.451479,
+          48.988624
+        ]
+      },
+      "id": "node/6591771941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771942",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76199",
+        "addr:street": "Kehler Straße",
+        "addr:suburb": "Dammerstock",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Kehler Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/kehler-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.398091,
+          48.988221
+        ]
+      },
+      "id": "node/6591771942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771943",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "76227",
+        "addr:street": "Max-Beckmann-Straße",
+        "addr:suburb": "Durlach",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Max-Beckmann-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/max-beckmann-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4763813,
+          48.9873425
+        ]
+      },
+      "id": "node/6591771943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771944",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "76199",
+        "addr:street": "Oosstraße",
+        "addr:suburb": "Weiherfeld",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Oosstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/oosstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.390971,
+          48.986885
+        ]
+      },
+      "id": "node/6591771944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771945",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "76199",
+        "addr:street": "Dreisamstraße",
+        "addr:suburb": "Weiherfeld",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Dreisamstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/dreisamstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.394712,
+          48.986453
+        ]
+      },
+      "id": "node/6591771945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771946",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "31",
+        "addr:postcode": "76199",
+        "addr:street": "Donaustraße",
+        "addr:suburb": "Weiherfeld",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Donaustraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/donaustrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.389528,
+          48.983678
+        ]
+      },
+      "id": "node/6591771946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771947",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "0",
+        "addr:postcode": "76189",
+        "addr:street": "Graf-Stauffenberg-Straße",
+        "addr:suburb": "Oberreut",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Graf-Stauffenberg-Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/graf-stauffenberg-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.368413,
+          48.980463
+        ]
+      },
+      "id": "node/6591771947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771950",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "76228",
+        "addr:street": "Rathausstraße",
+        "addr:suburb": "Wolfartsweier",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Rathausstraße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/rathausstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4525655,
+          48.9745621
+        ]
+      },
+      "id": "node/6591771950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771951",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "83",
+        "addr:postcode": "76199",
+        "addr:street": "Rastatter Straße",
+        "addr:suburb": "Rüppurr",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Rastatter Straße",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/rastatter-strasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.404302,
+          48.97373
+        ]
+      },
+      "id": "node/6591771951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591771953",
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "76199",
+        "addr:street": "Allmendstraße",
+        "addr:suburb": "Rüppurr",
+        "amenity": "car_sharing",
+        "brand": "Stadtmobil",
+        "name": "Hinterm Dorf",
+        "network": "cambio_stadtmobil",
+        "operator": "Stadtmobil CarSharing GmbH & Co. KG",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/hinterm-dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3999491,
+          48.966747
+        ]
+      },
+      "id": "node/6591771953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6818447163",
+        "addr:city": "Karlsruhe",
+        "addr:housenumber": "17",
+        "addr:postcode": "76131",
+        "addr:street": "Willy-Andreas-Allee",
+        "amenity": "car_sharing",
+        "brand": "stadtmobil",
+        "brand:wikidata": "Q2327629",
+        "brand:wikipedia": "en:Stadtmobil",
+        "capacity": "2",
+        "description": "2 x Opel Vivaro 9-Sitzer AHK\nDie Station befindet sich in der der offenen Tiefgarage unter dem Haus Willy-Andreas-Allee 17.\n\nDie Fahrzeuge werden auf den Stellplätzen Nr. 5 und Nr. 6 geparkt.\n\nZur Ausfahrt fahren Sie bitte langsam auf die Schranke zu, sie",
+        "name": "stadtmobil",
+        "supervised": "no",
+        "website": "https://karlsruhe.stadtmobil.de/privatkunden/stationen/station/studentenwohnheim-waa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.393055,
+          49.0170886
+        ]
+      },
+      "id": "node/6818447163"
+    }
+  ]
+}

@@ -1,0 +1,3158 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-12-07T15:19:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25623222",
+        "name": "Hammäcker",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref_name": "Daxlanden Hammäcker",
+        "tram": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3340743,
+          48.9914457
+        ]
+      },
+      "id": "node/25623222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/413929211",
+        "name": "Karlsruhe-Durlach",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKDUA",
+        "uic_ref": "723560",
+        "website": "https://live.kvv.de/#departures?stopId=de:8212:801",
+        "wheelchair": "no",
+        "wheelchair:description": "Zugang zum Bahnsteig nur über Treppen."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4625733,
+          49.0026082
+        ]
+      },
+      "id": "node/413929211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1138074549",
+        "name": "Reitschulschlag (Wendeschleife)",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RK R",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4610095,
+          49.0440393
+        ]
+      },
+      "id": "node/1138074549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2361780442",
+        "name": "Karl-Wilhelm-Platz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:401",
+        "ref_name": "Karlsruhe Karl-Wilhelm-Platz",
+        "uic_ref": "721387",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4231984,
+          49.0113121
+        ]
+      },
+      "id": "node/2361780442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2827402196",
+        "name": "Sinsheimer Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Rintheim Sinsheimer Straße",
+        "uic_ref": "722280",
+        "wheelchair": "no",
+        "wheelchair:description:de": "Niederflurwagen auf den Linien 4 und S2. Kein höhengleicher Bahnsteig."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4447867,
+          49.0208005
+        ]
+      },
+      "id": "node/2827402196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2930680344",
+        "last_renovation": "2014-11",
+        "name": "Europaplatz/Post Galerie (Kaiserstraße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "Haltestelle seit November 2014 wieder in Betrieb - Geometrien geschätzt",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Europaplatz/Post Galerie (Kaiserstraße)",
+        "train": "yes",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3941837,
+          49.0100409
+        ]
+      },
+      "id": "node/2930680344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2930680345",
+        "name": "Europaplatz/Post Galerie (Karlstraße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Europaplatz/Post Galerie (Karlstraße)",
+        "short_name": "Europaplatz (Karlstraße)",
+        "train": "yes",
+        "tram": "yes",
+        "uic_ref": "721358",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:60",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3949535,
+          49.0094579
+        ]
+      },
+      "id": "node/2930680345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2943932401",
+        "name": "Tivoli",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Tivoli",
+        "train": "yes",
+        "tram": "yes",
+        "uic_ref": "721450",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4105535,
+          48.9968102
+        ]
+      },
+      "id": "node/2943932401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2952306547",
+        "name": "Waidweg",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720577",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3223805,
+          49.0043368
+        ]
+      },
+      "id": "node/2952306547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3016662816",
+        "alt_name": "Hauptbahnhof;Hauptbahnhof Vorplatz",
+        "name": "Bahnhofsvorplatz",
+        "name:note": "auf den Haltestellenschilder steht \"Hauptbahnhof\", auf dem Fahrplan \"Bahnhofsvorplatz\", bzw. \"Hauptbahnhof Vorplatz\"",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:pos": "1.9",
+        "railway:ref:DBAG": "RKV",
+        "ref_name": "Karlsruhe Bahnhofsvorplatz",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:89",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3996764,
+          48.9943672
+        ]
+      },
+      "id": "node/3016662816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3016662817",
+        "bus": "yes",
+        "name": "Ebertstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "operator:wikidata": "Q644958",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Ebertstraße",
+        "train": "yes",
+        "tram": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "ebenerdiger Zugang zum südlichen Bahnsteig von Westen (teilweise schon fertiggestellt)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3952738,
+          48.9945302
+        ]
+      },
+      "id": "node/3016662817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3098401320",
+        "name": "Auer Straße/Dr. Willmar Schwabe",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:11",
+        "ref_name": "Durlach Auer Straße/Dr. Willmar Schwabe",
+        "short_name": "Auer Straße",
+        "tram": "yes",
+        "uic_ref": "720618",
+        "website": "https://live.kvv.de/#departures?stopId=de:8212:11",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4634778,
+          49.0004421
+        ]
+      },
+      "id": "node/3098401320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3100250760",
+        "name": "Friedrichschule",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:16",
+        "ref_name": "Durlach Friedrichschule",
+        "uic_ref": "720630",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4688588,
+          48.9992947
+        ]
+      },
+      "id": "node/3100250760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738313",
+        "name": "Barbarossaplatz",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "723862",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3896546,
+          48.99493
+        ]
+      },
+      "id": "node/3109738313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738314",
+        "name": "Gottesauer Platz/BGV",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:pos": "10.0",
+        "railway:ref:DBAG": "RKDG",
+        "ref:IFOPT": "de:08212:6",
+        "ref_name": "Karlsruhe Gottesauer Platz/BGV",
+        "uic_ref": "723616",
+        "wheelchair": "yes",
+        "wheelchair:description": "Barrierefreier Einstieg zu den Stadtbahn-Linien S4,S41 und S5 nur an den ersten beiden Türen. Nicht alle Stadtbahnfahrzeuge barrierefrei. Barrierefreier Zugang zu allen Straßenbahnlinien."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4248911,
+          49.0074872
+        ]
+      },
+      "id": "node/3109738314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738315",
+        "name": "Herrenstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKMH",
+        "ref_name": "Karlsruhe Herrenstraße",
+        "uic_ref": "721376",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:99",
+        "wheelchair": "yes",
+        "wheelchair:description": "Herrenstraße ist umgebaut und bietet stufenlosen Zugang zu den Niederflurbahnen (34cm Bahnsteighöhe). Hier verkehren jedoch auch noch die alten Hochflurbahen (z.B. S1/S11), bei denen kein stufenloser Zugang möglich ist.(Stand: 01.07.2015)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4003428,
+          49.0097567
+        ]
+      },
+      "id": "node/3109738315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738316",
+        "name": "Konzerthaus",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Konzerthaus",
+        "uic_ref": "721392",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3997707,
+          49.0035853
+        ]
+      },
+      "id": "node/3109738316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738318",
+        "name": "Tullastraße / Verkehrsbetriebe",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:pos": "10.4",
+        "railway:ref:DBAG": "RK T",
+        "ref:IFOPT": "de:08212:7",
+        "ref_name": "Karlsruhe Tullastraße / Verkehrsbetriebe",
+        "uic_ref": "723632",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4325007,
+          49.0061053
+        ]
+      },
+      "id": "node/3109738318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738319",
+        "name": "Waldstadt Zentrum",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Zentrum",
+        "uic_ref": "722641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445237,
+          49.0351296
+        ]
+      },
+      "id": "node/3109738319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109738320",
+        "name": "Weinweg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKDW",
+        "ref:IFOPT": "de:08212:9",
+        "ref_name": "Karlsruhe Weinweg",
+        "uic_ref": "721461",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.44188,
+          49.004341
+        ]
+      },
+      "id": "node/3109738320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109761933",
+        "name": "Albert-Braun-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Oberreut Albert-Braun-Straße",
+        "uic_ref": "723875",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3635523,
+          48.9891264
+        ]
+      },
+      "id": "node/3109761933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109761934",
+        "name": "Badeniaplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Oberreut Badeniaplatz",
+        "uic_ref": "723878",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3683894,
+          48.982226
+        ]
+      },
+      "id": "node/3109761934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109761935",
+        "name": "Hardecksiedlung",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Hardecksiedlung",
+        "uic_ref": "723866",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3688318,
+          48.9926717
+        ]
+      },
+      "id": "node/3109761935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109761936",
+        "name": "Oberreut Zentrum",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Oberreut Zentrum",
+        "uic_ref": "723881",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.362285,
+          48.9857411
+        ]
+      },
+      "id": "node/3109761936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109761937",
+        "name": "Wilhelm-Leuschner-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Oberreut Wilhelm-Leuschner-Straße",
+        "uic_ref": "723879",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3649073,
+          48.9834769
+        ]
+      },
+      "id": "node/3109761937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844103",
+        "name": "Bannwaldallee",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Bannwaldallee",
+        "uic_ref": "720596",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3725362,
+          48.995197
+        ]
+      },
+      "id": "node/3110844103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844104",
+        "name": "Durlach Turmberg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:18",
+        "ref_name": "Durlach Turmberg",
+        "uic_ref": "723564",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4783592,
+          48.9999513
+        ]
+      },
+      "id": "node/3110844104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844105",
+        "name": "Ellmendinger Straße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4495",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4587228,
+          48.9941846
+        ]
+      },
+      "id": "node/3110844105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844106",
+        "name": "Europahalle/Europabad",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Europahalle/Europabad",
+        "surveillance": "public",
+        "uic_ref": "721357",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3762909,
+          48.9986388
+        ]
+      },
+      "id": "node/3110844106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844107",
+        "name": "Gritznerstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4499",
+        "uic_ref": "720581",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4640317,
+          48.9993399
+        ]
+      },
+      "id": "node/3110844107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844108",
+        "name": "Karl-Weysser-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:19",
+        "ref_name": "Durlach Karl-Weysser-Straße",
+        "uic_ref": "723857",
+        "wheelchair": "yes",
+        "wheelchair:description": "Neuer erhöhter Einstieg."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4769268,
+          48.9985668
+        ]
+      },
+      "id": "node/3110844108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844109",
+        "name": "Killisfeldstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4497",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4619656,
+          48.9973487
+        ]
+      },
+      "id": "node/3110844109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844110",
+        "name": "Landesbausparkasse",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Landesbausparkasse",
+        "uic_ref": "721403",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3775692,
+          49.0016749
+        ]
+      },
+      "id": "node/3110844110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844111",
+        "name": "Ostmarkstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4494"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4526482,
+          48.9916854
+        ]
+      },
+      "id": "node/3110844111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844113",
+        "name": "Schillerstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Schillerstraße",
+        "uic_ref": "721433",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3797396,
+          49.0101
+        ]
+      },
+      "id": "node/3110844113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844114",
+        "name": "Schlesier Straße (West)",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4493",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4522136,
+          48.9885738
+        ]
+      },
+      "id": "node/3110844114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844115",
+        "name": "Schlossplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:17",
+        "ref_name": "Durlach Schlossplatz",
+        "uic_ref": "723652",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4739792,
+          48.9991185
+        ]
+      },
+      "id": "node/3110844115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844116",
+        "name": "Sophienstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Sophienstraße",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3791673,
+          49.0076117
+        ]
+      },
+      "id": "node/3110844116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844117",
+        "name": "Steiermärker Straße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4496",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4559768,
+          48.9858257
+        ]
+      },
+      "id": "node/3110844117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844118",
+        "name": "Wolfartsweier Nord",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4500",
+        "uic_ref": "720608",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4587542,
+          48.9791142
+        ]
+      },
+      "id": "node/3110844118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110844119",
+        "name": "Zündhütle",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:4492",
+        "uic_ref": "720607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4605385,
+          48.9826007
+        ]
+      },
+      "id": "node/3110844119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852713",
+        "name": "Feierabendweg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721360",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3605129,
+          49.0219957
+        ]
+      },
+      "id": "node/3110852713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852714",
+        "name": "Lassallestraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721514",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3469877,
+          49.0294897
+        ]
+      },
+      "id": "node/3110852714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852715",
+        "name": "Neureuter Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721421",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.357447,
+          49.0236462
+        ]
+      },
+      "id": "node/3110852715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852716",
+        "name": "Poststraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKAP",
+        "ref_name": "Karlsruhe Poststraße",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4035887,
+          48.9951621
+        ]
+      },
+      "id": "node/3110852716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852717",
+        "name": "Siemensallee",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721521",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.350026,
+          49.0277206
+        ]
+      },
+      "id": "node/3110852717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3110852718",
+        "name": "Untermühlstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKDUU",
+        "ref:IFOPT": "de:08212:10",
+        "ref_name": "Karlsruhe Untermühlstraße",
+        "uic_ref": "721456",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4554205,
+          49.001981
+        ]
+      },
+      "id": "node/3110852718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016210",
+        "name": "Duale Hochschule",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721283",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3861003,
+          49.026915
+        ]
+      },
+      "id": "node/3111016210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016211",
+        "name": "Elbinger Straße (Ost)",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Elbinger Straße (Ost)",
+        "surveillance": "public",
+        "uic_ref": "723719",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4506163,
+          49.0407265
+        ]
+      },
+      "id": "node/3111016211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016212",
+        "name": "Europäische Schule",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Europäische Schule",
+        "surveillance": "public",
+        "uic_ref": "722635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4469038,
+          49.0449499
+        ]
+      },
+      "id": "node/3111016212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016213",
+        "name": "Fächerbad",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Hagsfeld Fächerbad",
+        "tram": "yes",
+        "uic_ref": "723914",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4481137,
+          49.0254409
+        ]
+      },
+      "id": "node/3111016213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016214",
+        "name": "Glogauer Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Glogauer Straße",
+        "surveillance": "public",
+        "uic_ref": "722636",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4419423,
+          49.0318566
+        ]
+      },
+      "id": "node/3111016214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016215",
+        "name": "Heidehof",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721288",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3870033,
+          49.0312249
+        ]
+      },
+      "id": "node/3111016215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016216",
+        "name": "Hertzstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.364297,
+          49.019951
+        ]
+      },
+      "id": "node/3111016216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016217",
+        "alt_name": "Hirtenweg/Technologiepark",
+        "name": "Hirtenweg - Technologiepark",
+        "name:note": "steht mit \" - \" auf dem Haltestellenschild",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:403",
+        "ref_name": "Karlsruhe Hirtenweg - Technologiepark",
+        "uic_ref": "721378",
+        "wheelchair": "no",
+        "wheelchair:description": "Niederflurfahrzeuge auf den Linien 4 und 6, sowie vereinzelt auf Linie S2, aber kein höhengleicher Bahnsteig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4389219,
+          49.0172155
+        ]
+      },
+      "id": "node/3111016217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016218",
+        "name": "Im Eichbäumle",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Im Eichbäumle",
+        "surveillance": "public",
+        "uic_ref": "722633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4478712,
+          49.0295632
+        ]
+      },
+      "id": "node/3111016218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016219",
+        "name": "Jägerhaus",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Jägerhaus",
+        "uic_ref": "722637",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4472589,
+          49.0371403
+        ]
+      },
+      "id": "node/3111016219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016220",
+        "alt_name": "Kunstakademie/Hochschule; Kunstakademie/Hochschule Karlsruhe - Technik und Wirtschaft",
+        "name": "Kunstakademie / Hochschule Karlsruhe",
+        "network": "Karlsruher Verkehrsverbund",
+        "note:name": "An der Haltestelle steht \"Kunstakademie / Hochschule Karlsruhe\", auf den Fahrplänen und bei der Ansage in der Bahn werden aber auch die alternativen Namen benutzt.",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Kunstakademie/Hochschule",
+        "uic_ref": "721292",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3856869,
+          49.0142706
+        ]
+      },
+      "id": "node/3111016220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016221",
+        "name": "Lilienthalstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721282",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3851738,
+          49.0225326
+        ]
+      },
+      "id": "node/3111016221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016222",
+        "name": "Neureut-Heide",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721287",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3880646,
+          49.0363244
+        ]
+      },
+      "id": "node/3111016222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016223",
+        "name": "Osteroder Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Waldstadt Osteroder Straße",
+        "surveillance": "public",
+        "uic_ref": "722639",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4472039,
+          49.0433427
+        ]
+      },
+      "id": "node/3111016223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016224",
+        "alt_name": "Kußmaulstraße",
+        "name": "Städtisches Klinikum/Kußmaulstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721397",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3693895,
+          49.0168375
+        ]
+      },
+      "id": "node/3111016224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111016225",
+        "name": "Synagoge",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "721278",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3849059,
+          49.0177662
+        ]
+      },
+      "id": "node/3111016225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073156",
+        "name": "Arbeitsagentur",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Arbeitsagentur",
+        "uic_ref": "723254",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3864319,
+          49.0034527
+        ]
+      },
+      "id": "node/3111073156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073157",
+        "name": "Hübschstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Hübschstraße",
+        "uic_ref": "721382",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3725795,
+          49.0055644
+        ]
+      },
+      "id": "node/3111073157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073158",
+        "name": "Kühler Krug",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Kühler Krug",
+        "tram": "yes",
+        "uic_ref": "723921",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3669359,
+          49.0060261
+        ]
+      },
+      "id": "node/3111073158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073160",
+        "name": "Mühlburger Feld",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Mühlburger Feld",
+        "uic_ref": "721417",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.364214,
+          49.0076572
+        ]
+      },
+      "id": "node/3111073160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073161",
+        "name": "Ostendstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Ostendstraße",
+        "start_date": "2012-09-08",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4163088,
+          49.0050369
+        ]
+      },
+      "id": "node/3111073161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073162",
+        "name": "Otto-Sachs-Straße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Otto-Sachs-Straße",
+        "short_name": "Otto-Sachs-Str.",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3893802,
+          49.0034407
+        ]
+      },
+      "id": "node/3111073162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073163",
+        "name": "Philipp-Reis-Straße / die neue welle",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Philipp-Reis-Straße / die neue welle",
+        "short_name": "Philipp-Reis-Straße",
+        "start_date": "2012-09-08",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4115497,
+          49.0044836
+        ]
+      },
+      "id": "node/3111073163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073165",
+        "name": "Rappenwört",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720573",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2954117,
+          48.9989251
+        ]
+      },
+      "id": "node/3111073165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073166",
+        "construction:start_date": "2013-10",
+        "name": "Rüppurrer Tor",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Rüppurrer Tor",
+        "start_date": "2013-11-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4103959,
+          49.0050354
+        ]
+      },
+      "id": "node/3111073166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073167",
+        "name": "Schloss Gottesaue/Hochschule für Musik",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Schloss Gottesaue/Hochschule für Musik",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4274462,
+          49.0036387
+        ]
+      },
+      "id": "node/3111073167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073168",
+        "name": "Volkswohnung/Staatstheater",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Volkswohnung/Staatstheater",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4039262,
+          49.0038237
+        ]
+      },
+      "id": "node/3111073168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073169",
+        "departures_board": "realtime",
+        "name": "Welfenstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "uic_ref": "723959",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3853643,
+          48.995262
+        ]
+      },
+      "id": "node/3111073169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073170",
+        "name": "Wolfartsweierer Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Wolfartsweierer Straße",
+        "start_date": "2012-09-08",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4231484,
+          49.0035245
+        ]
+      },
+      "id": "node/3111073170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111073171",
+        "name": "ZKM",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "723255",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3859889,
+          48.9991629
+        ]
+      },
+      "id": "node/3111073171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091958",
+        "name": "Altrheinbrücke",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3119375,
+          49.0008458
+        ]
+      },
+      "id": "node/3111091958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091959",
+        "name": "Ankerstraße",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "723893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3346458,
+          49.0066047
+        ]
+      },
+      "id": "node/3111091959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091960",
+        "name": "Hammweg",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3275059,
+          49.0037838
+        ]
+      },
+      "id": "node/3111091960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091961",
+        "name": "Kirchplatz",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "uic_ref": "720570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3323278,
+          49.0052906
+        ]
+      },
+      "id": "node/3111091961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091962",
+        "alt_name": "Friedhof Daxlanden",
+        "name": "Mauerweg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Mauerweg",
+        "uic_ref": "723896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3392577,
+          49.0077519
+        ]
+      },
+      "id": "node/3111091962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111091963",
+        "name": "Stadtwerke",
+        "network": "Karlsruher Verkehrsverbund (KVV)",
+        "operator": "Verkehrsbetriebe Karlsruhe (VBK)",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "uic_ref": "720095",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3439398,
+          49.0071038
+        ]
+      },
+      "id": "node/3111091963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111136804",
+        "name": "Nussbaumweg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Daxlanden Nussbaumweg",
+        "uic_ref": "720572",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3328921,
+          48.9889518
+        ]
+      },
+      "id": "node/3111136804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111162120",
+        "name": "Dornröschenweg",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RK O",
+        "ref_name": "Daxlanden Dornröschenweg",
+        "uic_ref": "720567",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3353558,
+          48.9928704
+        ]
+      },
+      "id": "node/3111162120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111162121",
+        "name": "Hammäcker",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Daxlanden Hammäcker",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3340732,
+          48.991455
+        ]
+      },
+      "id": "node/3111162121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111162122",
+        "name": "Karl-Delisle-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Daxlanden Karl-Delisle-Straße",
+        "uic_ref": "720569",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3381979,
+          48.996128
+        ]
+      },
+      "id": "node/3111162122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251390",
+        "name": "Eckenerstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Eckenerstraße",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3498935,
+          49.0055045
+        ]
+      },
+      "id": "node/3111251390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251391",
+        "name": "Eggensteiner Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKEG",
+        "uic_ref": "723871",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3383577,
+          49.0333379
+        ]
+      },
+      "id": "node/3111251391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251392",
+        "name": "Herweghstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKIH",
+        "uic_ref": "721509",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3411751,
+          49.0304449
+        ]
+      },
+      "id": "node/3111251392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251393",
+        "name": "Lameyplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKSL",
+        "ref_name": "Karlsruhe Lameyplatz",
+        "uic_ref": "721401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3547338,
+          49.0131336
+        ]
+      },
+      "id": "node/3111251393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251394",
+        "name": "Mühlburg West",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKMW",
+        "uic_ref": "721416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3507313,
+          49.0202972
+        ]
+      },
+      "id": "node/3111251394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251395",
+        "name": "Rheinbergstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKSR",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3364356,
+          49.0351374
+        ]
+      },
+      "id": "node/3111251395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251396",
+        "name": "Rheinhafen",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "uic_ref": "721428"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.347428,
+          49.0156004
+        ]
+      },
+      "id": "node/3111251396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251398",
+        "name": "Rheinhafenstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Rheinhafenstraße",
+        "uic_ref": "723923",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3450898,
+          49.0015588
+        ]
+      },
+      "id": "node/3111251398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251399",
+        "name": "Siemens",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKIS",
+        "ref_name": "Knielingen Siemens",
+        "uic_ref": "721520",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3462679,
+          49.025263
+        ]
+      },
+      "id": "node/3111251399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251400",
+        "name": "Starckstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKSS",
+        "uic_ref": "721445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3528631,
+          49.0168335
+        ]
+      },
+      "id": "node/3111251400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111251401",
+        "name": "Thomas-Mann-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Daxlanden Thomas-Mann-Straße",
+        "uic_ref": "720556",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3411067,
+          48.9988804
+        ]
+      },
+      "id": "node/3111251401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111265483",
+        "name": "Philippstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKEP",
+        "ref_name": "Karlsruhe Philippstraße",
+        "toilets:wheelchair": "no",
+        "uic_ref": "721426",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3648026,
+          49.0113978
+        ]
+      },
+      "id": "node/3111265483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111279834",
+        "name": "Händelstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKEH",
+        "ref_name": "Karlsruhe Händelstraße",
+        "uic_ref": "721381",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3694137,
+          49.0112153
+        ]
+      },
+      "id": "node/3111279834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111290042",
+        "name": "Yorckstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKMY",
+        "ref_name": "Karlsruhe Yorckstraße",
+        "uic_ref": "721470",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3755904,
+          49.0109285
+        ]
+      },
+      "id": "node/3111290042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374776",
+        "name": "August-Bebel-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe August-Bebel-Straße"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3757394,
+          49.023993
+        ]
+      },
+      "id": "node/3112374776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374777",
+        "name": "Bahnhof Hagsfeld",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Hagsfeld Bahnhof",
+        "uic_ref": "723593",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.453841,
+          49.027477
+        ]
+      },
+      "id": "node/3112374777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374779",
+        "light_rail": "yes",
+        "name": "Geroldsäcker",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RK G",
+        "ref_name": "Hagsfeld Geroldsäcker",
+        "uic_ref": "720672",
+        "wheelchair": "yes",
+        "wheelchair:description": "nur teilweise Niederflurfahrzeuge im Einsatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4553548,
+          49.0328085
+        ]
+      },
+      "id": "node/3112374779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374780",
+        "name": "Hagsfeld Süd",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Hagsfeld Süd",
+        "uic_ref": "723859",
+        "wheelchair": "yes",
+        "wheelchair:description": "Barrierefreier Zugang zu Niederflurfahrzeugen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4495275,
+          49.0244344
+        ]
+      },
+      "id": "node/3112374780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374781",
+        "name": "Haus Bethlehem",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Haus Betlehem",
+        "uic_ref": "721372",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3766317,
+          49.0334417
+        ]
+      },
+      "id": "node/3112374781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374782",
+        "name": "Jenaer Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Hagsfeld Jenaer Straße",
+        "uic_ref": "720555",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4562503,
+          49.0360941
+        ]
+      },
+      "id": "node/3112374782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374783",
+        "name": "Knielinger Allee",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Knielinger Allee",
+        "train": "yes",
+        "uic_ref": "721389",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3753445,
+          49.0188502
+        ]
+      },
+      "id": "node/3112374783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374784",
+        "name": "Kurt-Schumacher-Straße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Kurt-Schumacher-Straße",
+        "uic_ref": "721396",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3762672,
+          49.0301422
+        ]
+      },
+      "id": "node/3112374784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374786",
+        "name": "Reitschulschlag",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RK R",
+        "ref_name": "Hagsfeld Reitschulschlag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4608348,
+          49.0428986
+        ]
+      },
+      "id": "node/3112374786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112374788",
+        "name": "Werderstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Werderstraße",
+        "toilets:wheelchair": "no",
+        "uic_ref": "721465",
+        "wheelchair": "yes",
+        "wheelchair:description:de": "Barrierefreier Zugang zur Straßenbahnlinie 2 (Niederflurfahrzeuge). Kein barrierefreier Zugang zu den Stadtbahnlinien S1,S11, S4 und S41",
+        "wheelchair:note": "laut Wiki nur limited da kein barrierefreier Zugang zu allen Straßen-/Stadtbahnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4106171,
+          49.0004657
+        ]
+      },
+      "id": "node/3112374788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112425591",
+        "name": "Hubstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKDUH",
+        "uic_ref": "724001",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4724438,
+          49.0072203
+        ]
+      },
+      "id": "node/3112425591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112467815",
+        "name": "Kolpingplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Kolpingplatz",
+        "uic_ref": "721390",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:63",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3937618,
+          48.9975686
+        ]
+      },
+      "id": "node/3112467815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3112474567",
+        "name": "Entenfang",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKEF",
+        "ref_name": "Karlsruhe Entenfang",
+        "uic_ref": "8079126",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3596813,
+          49.0108495
+        ]
+      },
+      "id": "node/3112474567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3139904087",
+        "alt_name": "Mühlburger Tor (Kaiserallee)",
+        "name": "Mühlburger Tor",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKMT",
+        "ref_name": "Karlsruhe Mühlburger Tor",
+        "start_date": "2013-04-26",
+        "train": "yes",
+        "tram": "yes",
+        "uic_ref": "8079144",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3827201,
+          49.010598
+        ]
+      },
+      "id": "node/3139904087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3170124329",
+        "name": "Mühlburger Tor (Grashofstraße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Mühlburger Tor (Grashofstraße)",
+        "start_date": "2013-04-26",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3845824,
+          49.011122
+        ]
+      },
+      "id": "node/3170124329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3193341053",
+        "name": "Grötzingen Bahnhof",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "uic_ref": "8000381",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4922598,
+          49.0062799
+        ]
+      },
+      "id": "node/3193341053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3196665909",
+        "name": "Kronenplatz (Kaiserstraße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "old_name": "Kronenplatz/Universität (Kaiserstraße)",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKBP",
+        "ref:IFOPT": "de:08212:2",
+        "ref_name": "Karlsruhe Kronenplatz (Kaiserstraße)",
+        "train": "yes",
+        "tram": "yes",
+        "uic_ref": "721394",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:2",
+        "wheelchair": "no",
+        "wheelchair:description:de": "Niederflurfahrzeuge auf Linien 1,2,3,4 und vereinzelt auf Linie S2. Kein höhengleicher Bahnsteig."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4088732,
+          49.009372
+        ]
+      },
+      "id": "node/3196665909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3230107006",
+        "alt_name": "Kronenplatz Süd",
+        "name": "Kronenplatz (Fritz-Erler-Straße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "old_name": "Kronenplatz/Universität (Fritz-Erler-Straße)",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:pos": "0.5",
+        "ref:IFOPT": "de:08212:80",
+        "ref_name": "Karlsruhe Kronenplatz (Fritz-Erler-Straße)",
+        "tram": "yes",
+        "uic_ref": "721393",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:80",
+        "wheelchair": "yes",
+        "wheelchair:description": "Haltestelle wurde umgebaut und hat jetzt das Niveau für die Niederflurbahnen (34cm) Es verkehren aber noch Hochflurbahnen auf der Strecke S1/S11 bei denen kein stufenloser Zugang möglich ist. Stand: 01.07.2015",
+        "wheelchair:description:de": "Barrierefreier Zugang zu den Straßenbahnlinien (Niederflurfahrzeuge). Kein barrierefreier Zugang zu den Linien S1, S11, S4 und S41."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4100196,
+          49.0082378
+        ]
+      },
+      "id": "node/3230107006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3231281598",
+        "name": "Hauptfriedhof",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:402",
+        "ref_name": "Karlsruhe Hauptfriedhof (Tullastraße)",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4308921,
+          49.0134987
+        ]
+      },
+      "id": "node/3231281598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3231281599",
+        "departures_board": "realtime",
+        "light_rail": "yes",
+        "name": "Hauptfriedhof",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:402",
+        "ref_name": "Karlsruhe Hauptfriedhof",
+        "tram": "yes",
+        "uic_ref": "723618",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4296698,
+          49.0137117
+        ]
+      },
+      "id": "node/3231281599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3233060881",
+        "name": "Dunantstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Dunantstraße",
+        "start_date": "2014-12-14",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4360778,
+          49.0114578
+        ]
+      },
+      "id": "node/3233060881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3233060882",
+        "last_renovation": "2014-12",
+        "name": "Forststraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Rintheim Forststraße",
+        "tram": "yes",
+        "uic_ref": "722278",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.442103,
+          49.0140378
+        ]
+      },
+      "id": "node/3233060882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240104171",
+        "name": "Mathystraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Mathystraße",
+        "tram": "yes",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:62",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3936237,
+          49.0025905
+        ]
+      },
+      "id": "node/3240104171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3244816170",
+        "alt_name": "Marktplatz",
+        "name": "Marktplatz (Kaiserstraße)",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RKMAK",
+        "ref_name": "Karlsruhe Marktplatz (Kaiserstraße)",
+        "tactile_paving": "no",
+        "train": "yes",
+        "tram": "yes",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:1",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4051057,
+          49.0095339
+        ]
+      },
+      "id": "node/3244816170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3247639123",
+        "name": "Karlstor",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Karlstor",
+        "start_date": "2013",
+        "train": "yes",
+        "tram": "yes",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:61",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3945718,
+          49.0048223
+        ]
+      },
+      "id": "node/3247639123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3247639124",
+        "name": "Mathystraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Mathystraße",
+        "tram": "yes",
+        "uic_ref": "723622",
+        "website": "http://live.kvv.de/#departures?stopId=de:8212:62",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3942811,
+          49.0019751
+        ]
+      },
+      "id": "node/3247639124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3247639125",
+        "name": "Tullastraße / Verkehrsbetriebe",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "ohne Fahrkartenautomat",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "railway:ref:DBAG": "RK T",
+        "ref_name": "Karlsruhe Tullastraße / Verkehrsbetriebe",
+        "short_name": "Tullastraße / VBK",
+        "train": "yes",
+        "tram": "yes",
+        "uic_ref": "723632",
+        "wheelchair": "yes",
+        "wheelchair:description": "Niederflurstraßenbahn auf Linie 6, kein barrierefreier Ein- und Ausstieg in die Stadtbahnen der Linien S4 und S41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4314198,
+          49.0070101
+        ]
+      },
+      "id": "node/3247639125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3589523104",
+        "name": "Entenfang",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Entenfang",
+        "tram": "yes",
+        "uic_ref": "724202",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3593738,
+          49.0099329
+        ]
+      },
+      "id": "node/3589523104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3848294457",
+        "name": "Entenfang",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Entenfang",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3581946,
+          49.0107151
+        ]
+      },
+      "id": "node/3848294457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4138938939",
+        "name": "Rintheim",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:IFOPT": "de:08212:314:0:1",
+        "ref_name": "Rintheim",
+        "tram": "yes",
+        "uic_ref": "722277",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4437075,
+          49.0164264
+        ]
+      },
+      "id": "node/4138938939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4210720056",
+        "name": "Weinbrennerplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref:hafas:DB": "723635",
+        "ref_name": "Karlsruhe Weinbrennerplatz",
+        "tram": "yes",
+        "website": "https://live.kvv.de/#departures?stopId=de:8212:603",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3778503,
+          49.0051683
+        ]
+      },
+      "id": "node/4210720056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986775568",
+        "name": "Essenweinstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Essenweinstraße",
+        "start_date": "2017-10-27",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4318901,
+          49.0097245
+        ]
+      },
+      "id": "node/4986775568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078851210",
+        "name": "Städtisches Klinikum/Moltkestraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Städtisches Klinikum/Moltkestraße",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3746846,
+          49.0151875
+        ]
+      },
+      "id": "node/5078851210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078851211",
+        "name": "Städtisches Klinikum/Moltkestraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Städtisches Klinikum/Moltkestraße",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3751374,
+          49.0154668
+        ]
+      },
+      "id": "node/5078851211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5200824955",
+        "name": "Lessingstraße",
+        "network": "Karlsruher Verkehrsverbund",
+        "note": "Kurzzüge halten hinten, Linie 5 fährt mit Kurzzügen",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Lessingstraße",
+        "tram": "yes",
+        "uic_ref": "721405",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3842354,
+          49.0043751
+        ]
+      },
+      "id": "node/5200824955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5738963866",
+        "name": "Weinbrennerplatz",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3767112,
+          49.0056464
+        ]
+      },
+      "id": "node/5738963866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5864209615",
+        "bus": "no",
+        "name": "Durlacher Tor - KIT Campus Süd",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Durlacher Tor - KIT Campus Süd",
+        "start_date": "2018-12-09",
+        "tactile_paving": "yes",
+        "tram": "yes",
+        "uic_ref": "723606",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4182226,
+          49.008857
+        ]
+      },
+      "id": "node/5864209615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6126664123",
+        "bus": "no",
+        "name": "Durlacher Tor - KIT Campus Süd",
+        "network": "Karlsruher Verkehrsverbund",
+        "operator": "Verkehrsbetriebe Karlsruhe GmbH",
+        "public_transport": "station",
+        "railway": "tram_stop",
+        "ref_name": "Karlsruhe Durlacher Tor - KIT Campus Süd",
+        "start_date": "2018-12-09",
+        "tactile_paving": "yes",
+        "tram": "yes",
+        "uic_ref": "723606",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4182001,
+          49.0093863
+        ]
+      },
+      "id": "node/6126664123"
+    }
+  ]
+}
