@@ -4,7 +4,7 @@ let baseMaps = {};
 let overlayMaps = {};
 let map = L.map('map').setView([49.0159, 8.4095], 12);
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
