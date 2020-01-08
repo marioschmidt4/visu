@@ -1,5 +1,24 @@
 'use strict';
 
+let yourVlSpec = {
+    $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
+    description: 'A simple bar chart with embedded data.',
+    data: {
+      values: [
+        {a: 'A', b: 12},
+        {a: 'I', b: 22}
+      ]
+    },
+    mark: 'bar',
+    encoding: {
+      x: {field: 'a', type: 'ordinal'},
+      y: {field: 'b', type: 'quantitative'}
+    }
+};
+vegaEmbed('#matrix', yourVlSpec);
+
+
+
 let baseMaps = {};
 let overlayMaps = {};
 let map = L.map('map').setView([49.0159, 8.4095], 12);
@@ -52,7 +71,7 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
                 console.log("asddas")
 
 
-                var yourVlSpec = {
+                let yourVlSpec = {
                     $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
                     description: 'A simple bar chart with embedded data.',
                     data: {
@@ -66,15 +85,15 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
                       x: {field: 'a', type: 'ordinal'},
                       y: {field: 'b', type: 'quantitative'}
                     }
-                  };
-                  vegaEmbed('#vis', yourVlSpec);
+                };
+                vegaEmbed('#vis', yourVlSpec);
 
                 
-                  /* var polygon = L.polygon([
+                /*var polygon = L.polygon([
                     [51.51, -0.08],
                     [51.503, -0.06],
                     [51.51, -0.047]
-                  ]).addTo(map);
+                ]).addTo(map);
 
                 console.log( polygon.contains( [51.506, -0.06] ) )
                 //overlayMaps["Car-Sharing-Stationen"] */
