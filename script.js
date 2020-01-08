@@ -17,7 +17,10 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         area: await (await fetch('data/flaeche_karlsruhe.json')).json(),
         district: await (await fetch('data/stadtteil_karlsruhe.geojson')).json(),
         tramStops: await (await fetch('data/straba_haltestellen_karlsruhe.geojson')).json(),
-        busStops: await (await fetch('data/bus_haltestellen_karlsruhe.geojson')).json()
+        busStops: await (await fetch('data/bus_haltestellen_karlsruhe.geojson')).json(),
+
+        carPerDistrict: await (await fetch('data/pkw_karlsruhe.json')).json(),
+        pointof: await (await fetch('data/pointsofinterest2.json')).json()
     };
 
 
@@ -25,6 +28,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         onEachFeature: (feature, layer) => {
             let cityPopulation = data.population[feature.properties.name];
             let cityArea = data.area[feature.properties.name];
+            let carPerDistrict = data.carPerDistrict[feature.properties.name];
             let color = getDensityColor(cityPopulation / cityArea);
             layer.setStyle({
                 'color': 'black',
@@ -40,7 +44,77 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 <br>Bevölkerung: ${cityPopulation}
                 <br>Fläche: ${cityArea}
                 <br>Bevölkerungdichte: ${Math.floor(cityPopulation / cityArea)}
+                <br>PKW: ${carPerDistrict}
+                <div id="vis"></div>
             `);
+
+            layer.on('popupopen', () => {
+                console.log("asddas")
+
+
+                var yourVlSpec = {
+                    $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
+                    description: 'A simple bar chart with embedded data.',
+                    data: {
+                      values: [
+                        {a: 'A', b: carPerDistrict},
+                        {a: 'I', b: data.carSharing.features.length}
+                      ]
+                    },
+                    mark: 'bar',
+                    encoding: {
+                      x: {field: 'a', type: 'ordinal'},
+                      y: {field: 'b', type: 'quantitative'}
+                    }
+                  };
+                  vegaEmbed('#vis', yourVlSpec);
+
+                
+                  /* var polygon = L.polygon([
+                    [51.51, -0.08],
+                    [51.503, -0.06],
+                    [51.51, -0.047]
+                  ]).addTo(map);
+
+                console.log( polygon.contains( [51.506, -0.06] ) )
+                //overlayMaps["Car-Sharing-Stationen"] */
+
+                if (layer instanceof L.Polygon) {
+                    console.log("poly")
+                }
+
+                var polygon = L.polygon([
+                    [51.51, -0.08],
+                    [51.503, -0.06],
+                    [51.51, -0.047]
+                  ]).addTo(map);
+                  var m1 = L.marker([49.01449,8.40009]);
+
+                  // https://gis.stackexchange.com/questions/120522/loop-through-a-marker-cluster-using-leafletjs/234332
+                  /* overlayMaps["Car-Sharing-Stationen"].eachLayer( (lay) => {
+                    console.log( layer.contains( lay.getLatLng() ) );
+                  } );
+
+                  console.log(polygon.contains(m1.getLatLng()));
+                  console.log('asd' + layer.contains(m1.getLatLng())); */
+
+            })
+
+
+// https://github.com/hayeswise/Leaflet.PointInPolygon            
+
+
+// ?
+// https://gis.stackexchange.com/questions/238940/selecting-markers-within-a-geojson-polygon-leaflet
+
+
+// getPlayer return marker/polygon
+// https://stackoverflow.com/questions/34322864/finding-a-specific-layer-in-a-leaflet-layergroup-where-layers-are-polygons
+
+
+// if (layer instanceof L.Polygon) {
+// https://stackoverflow.com/questions/35130492/how-can-i-detect-a-click-on-the-edge-of-a-polygon-with-leaflet
+
         }
     }).addTo(map);
     baseMaps["Bevölkerungsdichte"] = district;
@@ -92,6 +166,21 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         marker.addTo(cars);
     });
     overlayMaps["Autos von Getaround"] = cars;
+
+
+
+    
+    let points = L.layerGroup();
+    console.log(data.pointof)
+    data.pointof.forEach((test) => {
+        console.log(test)
+        let marker = L.marker([test.geoPosition.latitude, test.geoPosition.longitude]);
+        marker.bindPopup(`${test.places[0].bookeeIds.length}`, {
+            autoClose: false
+        }).openPopup();
+        marker.addTo(points);
+    });
+    overlayMaps["test"] = points;
 
 
     L.control.layers(baseMaps, overlayMaps).addTo(map);
