@@ -152,13 +152,13 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
 
 
     let tramStops = L.geoJSON(data.tramStops, {
-        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { color: 'red', radius: 6 })
+        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { color: 'red', radius: 2 })
     });
     overlayMaps["Straßenbahnhaltestellen"] = tramStops;
 
 
     let busStops = L.geoJSON(data.busStops, {
-        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { color: 'green', radius: 6 })
+        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { color: 'green', radius: 2 })
     });
     overlayMaps["Bushaltestellen"] = busStops;
 
@@ -170,12 +170,12 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
             if (feature.geometry.type === 'Polygon') {
                 let bounds = layer.getBounds();
                 let center = bounds.getCenter();
-                let marker = L.circleMarker(center, { radius: 6 });
+                let marker = L.circleMarker(center, { radius: 2 });
                 carSharingTemp.push(marker);
             }
         },
 
-        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6 })
+        pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 2 })
     });
     carSharingTemp.forEach(e => e.addTo(carSharing));
     overlayMaps["Car-Sharing-Stationen"] = carSharing;
