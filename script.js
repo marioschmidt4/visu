@@ -5,8 +5,10 @@ let yourVlSpec = {
     description: 'A simple bar chart with embedded data.',
     data: {
       values: [
-        {a: 'A', b: 12},
-        {a: 'I', b: 22}
+        {a: 'Autos', b: 12},
+        {a: 'CS-Autos', b: 22},
+        {a: '18-25 Jährige', b: 44},
+        {a: 'Dichte', b: 3}
       ]
     },
     mark: 'bar',
@@ -39,6 +41,9 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
         busStops: await (await fetch('data/bus_haltestellen_karlsruhe.geojson')).json(),
 
         carPerDistrict: await (await fetch('data/pkw_karlsruhe.json')).json(),
+        agePerDistrict: await (await fetch('data/alter.json')).json(),
+        pointof: await (await fetch('data/pointsofinterestB.json')).json(),
+        places: await (await fetch('data/places.json')).json(),
         pointof: await (await fetch('data/pointsofinterest2.json')).json()
     };
 
@@ -48,6 +53,7 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
             let cityPopulation = data.population[feature.properties.name];
             let cityArea = data.area[feature.properties.name];
             let carPerDistrict = data.carPerDistrict[feature.properties.name];
+            let agePerDistrict = data.agePerDistrict[feature.properties.name];
             let color = getDensityColor(cityPopulation / cityArea);
             layer.setStyle({
                 'color': 'black',
@@ -61,23 +67,22 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
             layer.bindPopup(`
                 <span style="font-size: 20px">${feature.properties.name}</span>
                 <br>Bevölkerung: ${cityPopulation}
-                <br>Fläche: ${cityArea}
-                <br>Bevölkerungdichte: ${Math.floor(cityPopulation / cityArea)}
+                <br>Fläche: ${cityArea} ha
+                <br>Bevölkerungdichte: ${Math.floor(cityPopulation / cityArea)} je ha
                 <br>PKW: ${carPerDistrict}
                 <div id="vis"></div>
             `);
 
             layer.on('popupopen', () => {
-                console.log("asddas")
-
-
                 let yourVlSpec = {
                     $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
                     description: 'A simple bar chart with embedded data.',
                     data: {
                       values: [
-                        {a: 'A', b: carPerDistrict},
-                        {a: 'I', b: data.carSharing.features.length}
+                        {a: 'Autos', b: carPerDistrict},
+                        {a: 'CS-Autos', b: data.carSharing.features.length},
+                        {a: '18-25 Jährige', b: agePerDistrict},
+                        {a: 'Dichte', b: cityPopulation / cityArea}
                       ]
                     },
                     mark: 'bar',
@@ -200,6 +205,19 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
         marker.addTo(points);
     });
     overlayMaps["test"] = points;
+
+
+    let places = L.layerGroup();
+    data.places.forEach((test) => {
+        console.log(test)
+        let marker = L.marker([test.geoPosition.latitude, test.geoPosition.longitude]);
+        marker.bindPopup(`${test.name}<br>${test.bookeeIds.length}`, {
+            autoClose: false
+        }).openPopup();
+        marker.addTo(places);
+    });
+    overlayMaps["test2"] = places;
+
 
 
     L.control.layers(baseMaps, overlayMaps).addTo(map);
