@@ -13,16 +13,30 @@
 <body>
 	<div id="map"></div>
 	<div id="matrix"></div>
+	<div class="legend" onclick="this.hidden=true">
+		<ul class="round">
+			<li><span style="background: #ff0000;"></span>Straßenbahnhaltestellen</li>
+			<li><span style="background: #008000;"></span>Bushaltestellen</li>
+			<li><span style="background: #3388ff;"></span>Car-Sharing-Stationen</li>
+		</ul>
+
+		<hr>
+		Bevölkerungsdichte:
+		<ul>
+			<li><span style="background: #96a7b9;"></span>unter 10</li>
+			<li><span style="background: #6a85b0;"></span>10 bis 20</li>
+			<li><span style="background: #42649a;"></span>20 bis 30</li>
+			<li><span style="background: #1d4992;"></span>30 bis 40</li>
+			<li><span style="background: #023388;"></span>über 50</li>
+		</ul>
+	</div>
 
 	<script src="lib/leaflet.js"></script>
-	<script src="lib/moment.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/npm/vega@5.9.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+	<script src="lib/vega.js"></script>
+	<script src="lib/vega-lite.js"></script>
+	<script src="lib/vega-embed.js"></script>
 	
-	<script src="https://cdn.rawgit.com/hayeswise/Leaflet.PointInPolygon/v1.0.0/wise-leaflet-pip.js"></script>
-
 	<script src="script.js"></script>
 </body>
 

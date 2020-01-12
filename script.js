@@ -1,29 +1,8 @@
 'use strict';
 
-let yourVlSpec = {
-    $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
-    description: 'A simple bar chart with embedded data.',
-    data: {
-      values: [
-        {a: 'Autos', b: 12},
-        {a: 'CS-Autos', b: 22},
-        {a: '18-25 Jährige', b: 44},
-        {a: 'Dichte', b: 3}
-      ]
-    },
-    mark: 'bar',
-    encoding: {
-      x: {field: 'a', type: 'ordinal'},
-      y: {field: 'b', type: 'quantitative'}
-    }
-};
-vegaEmbed('#matrix', yourVlSpec);
-
-
-
 let baseMaps = {};
 let overlayMaps = {};
-let map = L.map('map').setView([49.0159, 8.4095], 12);
+let map = L.map('map', {zoomSnap: 0.1}).setView([49.0159, 8.4095], 12);
 
 L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -41,18 +20,143 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
         busStops: await (await fetch('data/bus_haltestellen_karlsruhe.geojson')).json(),
 
         carPerDistrict: await (await fetch('data/pkw_karlsruhe.json')).json(),
+        csCarPerDistrict: await (await fetch('data/pkw_cs_karlsruhe.json')).json(),
         agePerDistrict: await (await fetch('data/alter.json')).json(),
         pointof: await (await fetch('data/pointsofinterestB.json')).json(),
         places: await (await fetch('data/places.json')).json(),
         pointof: await (await fetch('data/pointsofinterest2.json')).json()
     };
 
+    let yourVlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v4.0.2.json',
+        description: 'A simple bar chart with embedded data.',
+        width: "container",
+        data: {
+            values: objectsToArray(data.carPerDistrict, data.csCarPerDistrict)
+        },
+        hconcat: [
+            {
+                width: "container",
+                layer: [
+                    {
+                        selection: {
+                            highlight: {"type": "single", "empty": "none", "on": "mouseover"},
+                            select: {"type": "multi"}
+                        },
+                        mark: 'bar',
+                        encoding: {
+                            x: {
+                                field: 'district',
+                                type: 'ordinal',
+                                sort: {
+                                    "encoding": "y",
+                                    "order": "descending"
+                                },
+                                axis: {
+                                    labelLimit: 100,
+                                    labelOverlap: false,
+                                    labelAngle: -45,
+                                    labelFontSize: 14
+                                },
+                                title: "Stadtteil"
+                            },
+                            y: {
+                                field: 'amount1', type: 'quantitative', title: "Anzahl Autos", axis: {labelAngle: -45}
+                            },
+                            fillOpacity: {
+                                condition: {"selection": "select", "value": 1},
+                                value: 0.3
+                            },
+                        }
+                    },
+                    {
+                        mark: "rule",
+                        encoding: {
+                            y: {
+                                aggregate: "mean",
+                                field: "amount1",
+                                type: "quantitative"
+                            },
+                            color: {"value": "firebrick"},
+                            size: {"value": 3}
+                        }
+                    }
+                ]
+            },
+            {
+                layer: [
+                    {
+                        width: "container",
+                        mark: 'bar',
+                        encoding: {
+                            x: {
+                                field: 'district',
+                                type: 'ordinal',
+                                sort: {
+                                    "encoding": "y",
+                                    "order": "descending"
+                                },
+                                axis: {
+                                    labelLimit: 100,
+                                    labelOverlap: false,
+                                    labelAngle: -45,
+                                    labelFontSize: 14
+                                },
+                                title: "Stadtteil"
+                            },
+                            y: {
+                                field: 'amount2',
+                                type: 'quantitative',
+                                title: "Anzahl Car-Sharing-Autos",
+                                axis: {labelAngle: -45}
+                            },
+                            fillOpacity: {
+                                condition: {"selection": "select", "value": 1},
+                                value: 0.3
+                            },
+                        },
+                    },
+                    {
+                        mark: "rule",
+                        encoding: {
+                            y: {
+                                aggregate: "mean",
+                                field: "amount2",
+                                type: "quantitative"
+                            },
+                            color: {"value": "firebrick"},
+                            size: {"value": 3}
+                        }
+                    }
+                ]
+            }
+        ]
+    };
+    let v = await vegaEmbed('#matrix', yourVlSpec);
 
+    v.view.addEventListener("click", (event, item) => {
+        console.log(item.datum)
+        
+        district.eachLayer((layer) => {
+            layer.setStyle({color: 'black'})
+
+            if (item.datum.district === undefined) {
+                map.fitBounds(district.getBounds(), {padding: [25, 25]});
+            } else if (layer.feature.properties.name === item.datum.district) {
+                layer.bringToFront()
+                layer.setStyle({color: 'red'})
+                map.fitBounds(layer.getBounds(), {padding: [50, 50]});
+            }
+        });
+    })
+
+    
     let district = L.geoJSON(data.district, {
         onEachFeature: (feature, layer) => {
             let cityPopulation = data.population[feature.properties.name];
             let cityArea = data.area[feature.properties.name];
             let carPerDistrict = data.carPerDistrict[feature.properties.name];
+            let csCarPerDistrict = data.csCarPerDistrict[feature.properties.name];
             let agePerDistrict = data.agePerDistrict[feature.properties.name];
             let color = getDensityColor(cityPopulation / cityArea);
             layer.setStyle({
@@ -69,76 +173,29 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
                 <br>Bevölkerung: ${cityPopulation}
                 <br>Fläche: ${cityArea} ha
                 <br>Bevölkerungdichte: ${Math.floor(cityPopulation / cityArea)} je ha
-                <br>PKW: ${carPerDistrict}
+                <br>Autos: ${carPerDistrict}
+                <br>Car-Sharing-Autos: ${csCarPerDistrict}
                 <div id="vis"></div>
             `);
 
             layer.on('popupopen', () => {
-                let yourVlSpec = {
-                    $schema: 'https://vega.github.io/schema/vega-lite/v2.0.json',
+                let popUpSpec = {
+                    $schema: 'https://vega.github.io/schema/vega-lite/v4.0.2.json',
                     description: 'A simple bar chart with embedded data.',
                     data: {
                       values: [
                         {a: 'Autos', b: carPerDistrict},
-                        {a: 'CS-Autos', b: data.carSharing.features.length},
-                        {a: '18-25 Jährige', b: agePerDistrict},
-                        {a: 'Dichte', b: cityPopulation / cityArea}
+                        {a: 'CS-Autos', b: csCarPerDistrict}
                       ]
                     },
                     mark: 'bar',
                     encoding: {
                       x: {field: 'a', type: 'ordinal'},
-                      y: {field: 'b', type: 'quantitative'}
+                      y: {field: 'b', type: 'quantitative', "scale": {"domain": [0, 15000]}}
                     }
                 };
-                vegaEmbed('#vis', yourVlSpec);
-
-                
-                /*var polygon = L.polygon([
-                    [51.51, -0.08],
-                    [51.503, -0.06],
-                    [51.51, -0.047]
-                ]).addTo(map);
-
-                console.log( polygon.contains( [51.506, -0.06] ) )
-                //overlayMaps["Car-Sharing-Stationen"] */
-
-                if (layer instanceof L.Polygon) {
-                    console.log("poly")
-                }
-
-                var polygon = L.polygon([
-                    [51.51, -0.08],
-                    [51.503, -0.06],
-                    [51.51, -0.047]
-                  ]).addTo(map);
-                  var m1 = L.marker([49.01449,8.40009]);
-
-                  // https://gis.stackexchange.com/questions/120522/loop-through-a-marker-cluster-using-leafletjs/234332
-                  /* overlayMaps["Car-Sharing-Stationen"].eachLayer( (lay) => {
-                    console.log( layer.contains( lay.getLatLng() ) );
-                  } );
-
-                  console.log(polygon.contains(m1.getLatLng()));
-                  console.log('asd' + layer.contains(m1.getLatLng())); */
-
+                vegaEmbed('#vis', popUpSpec);
             })
-
-
-// https://github.com/hayeswise/Leaflet.PointInPolygon            
-
-
-// ?
-// https://gis.stackexchange.com/questions/238940/selecting-markers-within-a-geojson-polygon-leaflet
-
-
-// getPlayer return marker/polygon
-// https://stackoverflow.com/questions/34322864/finding-a-specific-layer-in-a-leaflet-layergroup-where-layers-are-polygons
-
-
-// if (layer instanceof L.Polygon) {
-// https://stackoverflow.com/questions/35130492/how-can-i-detect-a-click-on-the-edge-of-a-polygon-with-leaflet
-
         }
     }).addTo(map);
     baseMaps["Bevölkerungsdichte"] = district;
@@ -191,36 +248,9 @@ L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
     });
     overlayMaps["Autos von Getaround"] = cars;
 
-
-
     
-    let points = L.layerGroup();
-    console.log(data.pointof)
-    data.pointof.forEach((test) => {
-        console.log(test)
-        let marker = L.marker([test.geoPosition.latitude, test.geoPosition.longitude]);
-        marker.bindPopup(`${test.places[0].bookeeIds.length}`, {
-            autoClose: false
-        }).openPopup();
-        marker.addTo(points);
-    });
-    overlayMaps["test"] = points;
-
-
-    let places = L.layerGroup();
-    data.places.forEach((test) => {
-        console.log(test)
-        let marker = L.marker([test.geoPosition.latitude, test.geoPosition.longitude]);
-        marker.bindPopup(`${test.name}<br>${test.bookeeIds.length}`, {
-            autoClose: false
-        }).openPopup();
-        marker.addTo(places);
-    });
-    overlayMaps["test2"] = places;
-
-
-
-    L.control.layers(baseMaps, overlayMaps).addTo(map);
+    let options = {collapsed: navigator.userAgent.includes("Mobile")}
+    L.control.layers(baseMaps, overlayMaps, options).addTo(map);
 })();
 
 let getDensityColor = (d) => {
@@ -230,4 +260,12 @@ let getDensityColor = (d) => {
 		   d > 20 ? '#6a85b0' :
 		   d > 10 ? '#96a7b9' :
 				    '#cbcbcb';
+}
+
+let objectsToArray = (obj1, obj2) => {
+    let temp = [];
+    for (let [key, value] of Object.entries(obj1)) {
+        temp.push({district: key, amount1: value, amount2: obj2[key]});
+    }
+    return temp.sort( (a,b) => a.amount > b.amount );
 }

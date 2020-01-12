@@ -9,6 +9,51 @@ body {
 
 #matrix {
 	height: 30%;
+	width: 43%;
+}
+
+.legend span {
+	display: inline-block;
+	width: 30px;
+	height: 10px;
+	margin-right: 10px;
+	opacity: 0.9;
+}
+
+.legend li {
+	list-style-type: none;
+}
+
+.legend ul {
+	padding: 0;
+	margin: 0;
+}
+
+.legend .round span {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+
+.legend hr {
+	height: 0;
+	border-top: 1px solid #00000033;
+	margin: 5px -10px 5px -10px;
+}
+
+.legend {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+
+	position: absolute;
+	right: 10px;
+	top: 260px;
+	z-index: 900;
+	background: white;
+	border: 3px #00000033 solid;
+	border-radius: 5px;
+
+	padding: 10px;
 }
 
 .leaflet-popup-pane,
